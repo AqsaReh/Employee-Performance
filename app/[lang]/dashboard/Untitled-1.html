@@ -1,0 +1,198 @@
+      {/* Cards----------------------- */}
+      <div className=" grid grid-cols-3 gap-5">
+        <div className="bg-gradient-to-tl from-[#FD80AB] to-[#FF7E5F] p-5 rounded-md ">
+          <div className="flex items-center ">
+            <div>
+              <Image
+                src={Author}
+                alt="User Profile"
+                width={100}
+                className="rounded-full"
+              />
+            </div>
+            <div className="ml-4">
+              <h1 className="text-xl">Aqsa Rehman</h1>
+              <h3>Software Engineer </h3>
+            </div>
+          </div>
+        </div>
+
+        {/* ---------------------------------------------------------- */}
+
+        <div className="bg-gradient-to-tl from-[#FF3E9D] to-[#CB80AB] rounded-md p-5 ">
+          <div className=" ">
+            <div className="flex">
+              <Icon icon="heroicons:map" className="h-4 w-4 mr-1 " />
+              <label htmlFor="Territory">Territory : {"  "} </label>
+              <p>Lahore</p>
+            </div>
+
+            <div className="flex my-4">
+              <Icon icon="heroicons:calendar" className="h-4 w-4  mr-1" />
+              <label htmlFor="effective date" className="">
+                {" "}
+                Effective Date :{" "}
+              </label>
+              <p>1st April 2024</p>
+            </div>
+
+            <div className="flex">
+              <Icon icon="heroicons:calendar" className="h-4 w-4 mr-1" />
+              <label htmlFor="Date Of joining">Date Of Joining : </label>
+              <p>1st April 2024</p>
+            </div>
+            <div></div>
+          </div>
+        </div>
+
+        <div className="bg-gradient-to-tl from-[#F8A4D8] to-[#6C63FF] p-5 rounded-md">
+          {" "}
+          <h1>Trainings</h1>
+          <div className="w-16 items-center h-16 rounded-full border border-blue-300 "></div>
+          <div className="flex  ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-3 w-5 mr-1"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+
+            <h3>Recently Done</h3>
+
+            <Icon icon="heroicons:calendar" className="h-4 w-4 ml-5 mr-1" />
+            <h3>
+              <h3>Upcoming </h3>
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      {/* Second Second---------------------------------- */}
+
+      <div className=" mt-5 grid grid-cols-3 gap-5">
+        <div className="bg-blue-200 p-5 rounded-md ">
+          {/* <div className="flex items-center ">
+            <div>
+              <Image
+                src={Author}
+                alt="User Profile"
+                width={100}
+                className="rounded-full"
+              />
+            </div>
+            <div className="ml-4">
+              <h1 className="text-xl">Aqsa Rehman</h1>
+              <h3>Software Engineer </h3>
+            </div>
+          </div> */}
+          <div className="flex justify-between ">
+            <h1 className="text-xl">Sales History</h1>
+            <Icon icon="heroicons:chart-bar" className="h-4 w-4 mr-1" />
+          </div>
+          <h1 className="text-3xl my-2 text-center">202451</h1>
+
+          <div className="flex mt-2 justify-between">
+            <h1>Target : 30,000 </h1>
+            <h1>Achievment : 20,000 </h1>
+          </div>
+
+          <div className="flex mt-1 justify-between">
+            <h1>GOLI : 30,000 </h1>
+            <h1>GOLM : 20,000 </h1>
+          </div>
+
+          <div className="flex mt-2 justify-between">
+            <h1>LM : 30,000 </h1>
+            <h1>LQ : 20,000 </h1>
+            <h1>LY : 20,000 </h1>
+          </div>
+
+          <h1 className="mt-2">Activity Driven Sales : 20,000</h1>
+        </div>
+
+        {/* ---------------------------------------------------------- */}
+
+        <div className="bg-violet-200  rounded-md p-5 ">
+          <div className=" ">
+            <div className="flex justify-between">
+              <h1 className="text-xl">Yearly Performance</h1>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="size-3 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"
+                />
+              </svg>
+            </div>
+
+            <div className="flex justify-between mt-4">
+              <h1>Year</h1>
+              <h1>Target</h1>
+              <h1>Achievment</h1>
+            </div>
+
+            <div className="flex justify-between mt-4">
+              <h1>2023</h1>
+              <h1>40,000</h1>
+              <h1>30,000</h1>
+            </div>
+
+            <div className="flex justify-between mt-4">
+              <h1>2022</h1>
+              <h1>40,000</h1>
+              <h1>30,000</h1>
+            </div>
+
+            <div className="flex justify-between mt-4">
+              <h1>2021</h1>
+              <h1>40,000</h1>
+              <h1>30,000</h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-green-200 p-5 rounded-md">
+          <div className="flex justify-between">
+            <h1 className="text-xl">SFA Performance</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-6 w-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5A3.375 3.375 0 0 0 6.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0 0 15 2.25h-1.5a2.251 2.251 0 0 0-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 0 0-9-9Z"
+              />
+            </svg>
+          </div>
+
+          <h1 className="mt-4">Call Rate</h1>
+          <h1 className="mt-2">Plan Adherance</h1>
+          <h1 className="mt-2">A Class Coverage :</h1>
+          <h1 className="mt-2">B Class Coverage :</h1>
+          <div className="flex justify-between mt-3">
+            <h3>A : </h3>
+            <h3>B : </h3>
+            <h3>C : </h3>
+          </div>
+        </div>
+      </div>
